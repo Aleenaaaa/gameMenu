@@ -45,7 +45,7 @@ public class StartMenu {
 			break;
 			
 		case 5: 
-			// mastermind A 
+			MastermindA.run();
 			break;
 			
 		case 6:
