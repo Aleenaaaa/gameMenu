@@ -27,7 +27,7 @@ public class StartMenu {
 		{
 		 
 		case 1:
-			// Difficulty.difficultyLevel();
+			WelcomeMenu.run();
 			break;
 			
 		case 2:
