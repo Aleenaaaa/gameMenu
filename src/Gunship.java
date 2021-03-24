@@ -1,4 +1,4 @@
-package assignment2;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -34,7 +34,7 @@ public class Gunship {
 	private static ArrayList<String> battleshipsAlive = new ArrayList<String>();
 	
 	
-	public static void main(String[] args) {
+	public static void run() {
 		
 		menu();
 	}
