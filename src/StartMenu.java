@@ -17,7 +17,7 @@ public class StartMenu {
 		System.out.println("\n\n\n Hello, " + name );
 		
 		System.out.println("These are the game options you can choose from /n please enter the correspeoding number below");
-		System.out.println(" 1. Hangman A \n 2. Hangman B \n 3. Snakes and ladder A \n 4. Snakes and ladder B \n 5. Mastermind A \n 6. Mastermind B \n 7. Battleship A \n 8. Battleship B \n 9. start again");
+		System.out.println(" 1. Hangman A \n 2. Hangman B \n 3. Snakes and ladder A \n 4. Snakes and ladder B \n 5. Mastermind  \n 6. Battleship   \n 7. start again");
 		
 		Scanner input = new Scanner(System.in);
 		int choice = input.nextInt();
@@ -31,11 +31,11 @@ public class StartMenu {
 			break;
 			
 		case 2:
-			// hangman B 
+			Hangman_B.run(); 
 			break;
 		
 		case 3:
-			// snakes and ladder A
+			TheGame.run();
 			break;
 			
 		case 4:
@@ -47,20 +47,13 @@ public class StartMenu {
 		case 5: 
 			MastermindA.run();
 			break;
-			
+		
 		case 6:
-			// mastermind B
-			break;
-		
-		case 7:
-			// battleship A 
+			Gunship.run();
 			break;
 			
-		case 8: 
-			// battleship B
-			break;
-		
-		case 9: 
+	
+		case 7: 
 			StartMenu.main(args);
 			break;
 			
